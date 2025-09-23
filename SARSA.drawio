@@ -1,9 +1,134 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="28.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="28.2.4">
   <diagram name="Page-1" id="buAmh_Ibqs7aFZeUTwGn">
-    <mxGraphModel>
+    <mxGraphModel dx="1464" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-1" target="XGcRZqn_S5FmzBJaYhIA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-1" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-2" target="XGcRZqn_S5FmzBJaYhIA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-2" value="Perancangan &lt;i&gt;state-action-reward&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-3" target="XGcRZqn_S5FmzBJaYhIA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-3" value="Implementasi dan pelatihan program di Google Colab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-4" target="XGcRZqn_S5FmzBJaYhIA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-4" value="&lt;div&gt;Ekspor file .json&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-6" target="XGcRZqn_S5FmzBJaYhIA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-6" value="&lt;div align=&quot;center&quot;&gt;Jalankan FastAPI:&lt;/div&gt;&lt;div&gt;- load file .json&lt;/div&gt;&lt;div&gt;- connect ke Godot&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-7" target="XGcRZqn_S5FmzBJaYhIA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-7" value="Start Game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-8" target="XGcRZqn_S5FmzBJaYhIA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-8" value="Evaluasi dan analisa:&lt;br&gt;akurasi aksi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-9" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-10" target="XGcRZqn_S5FmzBJaYhIA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-10" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-24" target="XGcRZqn_S5FmzBJaYhIA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-24" value="&lt;div&gt;Inisialisasi:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- himpunan state dan action&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- nilai Q(s,a) =0&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- buat nilai parameter&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- tentukan banyak pelatihan&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="150" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-25" target="XGcRZqn_S5FmzBJaYhIA-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-25" value="Mulai training loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="150" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-26" target="XGcRZqn_S5FmzBJaYhIA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-26" value="Episode berakhir (episode 0)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="305" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-27" target="XGcRZqn_S5FmzBJaYhIA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-27" target="XGcRZqn_S5FmzBJaYhIA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-27" value="apakah pelatihan selesai?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="290" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-28" target="XGcRZqn_S5FmzBJaYhIA-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-28" value="Eksport file .json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="305" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-31" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-32" target="XGcRZqn_S5FmzBJaYhIA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-32" target="XGcRZqn_S5FmzBJaYhIA-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1135" y="270" />
+              <mxPoint x="1330" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-32" value="apakah ada data pelatihan?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="135" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-35" target="XGcRZqn_S5FmzBJaYhIA-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-35" value="Masukkan data awal = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="150" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XGcRZqn_S5FmzBJaYhIA-43" target="XGcRZqn_S5FmzBJaYhIA-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-43" value="Perbarui data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="305" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-52" value="True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-53" value="True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="835" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-54" value="False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XGcRZqn_S5FmzBJaYhIA-55" value="False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
